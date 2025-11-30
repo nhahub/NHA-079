@@ -40,7 +40,8 @@ The final model is deployed in a **Streamlit interactive dashboard** that includ
 
 ### ✔ Data Pipeline
 
-* Collect 5+ years of stock data (2013–2018)
+* Collect 5+ years of stock data (2013–2018) 
+* Dataset Link: https://drive.google.com/file/d/1pzcyhZy5H1NjadZxRQFXzceUCAr4kNgW/view?usp=drive_link
 * Clean, preprocess, and engineer features
 * Calculate indicators (SMA, RSI, Volatility, etc.)
 
@@ -84,8 +85,9 @@ The final model is deployed in a **Streamlit interactive dashboard** that includ
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/MennaFakharanyy/Depi-stocks-project.git
-cd Depi-stocks-project
+git clone https://github.com/nhahub/NHA-079.git
+
+cd NHA-079
 ```
 
 ### 2️⃣ Create Virtual Environment
@@ -121,7 +123,7 @@ Place your trained ML model here:
 If using Google Drive dataset, update the link inside `app.py`:
 
 ```python
-GDRIVE_LINK = "your_dataset_link"
+GDRIVE_LINK = "https://drive.google.com/file/d/1pzcyhZy5H1NjadZxRQFXzceUCAr4kNgW/view?usp=drive_link"
 ```
 
 ---
@@ -131,13 +133,13 @@ GDRIVE_LINK = "your_dataset_link"
 ## 📂 Project Structure
 
 ```
-Depi-stocks-project/
-│── data/               # Raw dataset or drive link
-│── models/             # Saved ML models (joblib/pkl)
-│── notebooks/          # EDA, training experiments
-│── app.py              # Streamlit main app
-│── utils.py            # Helper functions
-│── requirements.txt    # Dependencies
+NHA-079/
+│── model.pkl                    # Saved ML models (joblib/pkl)
+│── Stock analysis.ipynb         # EDA, training experiments
+│── app.py                       # Streamlit main app
+│── Project Documentation.pdf    # Documentation
+|__ DEPI Presentation.pdf        # Presentation
+│── requirements.txt             # Dependencies
 │── README.md
 ```
 
@@ -203,7 +205,7 @@ If not packaged yet, you can add later.
 
 ## 👥 Team
 
-* **Menna Fakharany** – Data Science
+* * **Menna Fakharany** – Data Science
 * * **Habiba Mohamed** – Data Science
 * * **Malak Khaled** – Data Science
 * * **Sherouq Eldanaf** – Data Science
